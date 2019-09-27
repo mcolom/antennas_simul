@@ -1,5 +1,6 @@
 # antennas_simul
 Interferometric Antennas Interactive Toy
+https://github.com/mcolom/antennas_simul
 
 Author: Miguel Colom
 Website: http://mcolom.info
