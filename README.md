@@ -3,6 +3,7 @@ Interferometric Antennas Interactive Toy
 https://github.com/mcolom/antennas_simul
 
 Author: Miguel Colom
+
 Website: http://mcolom.info
 
 This is a simple Python3 program that allows to quickly design the spatial position of the antennas of an interferometric instrument (say, SMOS) and view the corresponding sampling in Fourier, with the associated multiplicities.
