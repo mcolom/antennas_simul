@@ -1,5 +1,6 @@
 # antennas_simul
 Interferometric Antennas Interactive Toy
+
 https://github.com/mcolom/antennas_simul
 
 Author: Miguel Colom
@@ -10,9 +11,10 @@ This is a simple Python3 program that allows to quickly design the spatial posit
 It read/saves the position of the antennas in the instrument from text files. Each line must contain the X and Y coordinates of the antenna in meters, separated by a comma.
 
 Keys:
-d: open a file
-a: save current configuration to a file
-ENTER: compute and visualize the Fourier sampling, along with the multiplicity of each visibility.
+- d: open a file
+- a: save current configuration to a file
+- ENTER: compute and visualize the Fourier sampling, along with the multiplicity of each visibility.
+
 You can change these keys by editing the antennas.py file, if you wish.
 
 Move the antennas by dragging them with the mouse. To add more, click on the window while pressing the Ctrl key.
