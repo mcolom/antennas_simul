@@ -229,6 +229,9 @@ class AntennasSpatial(object):
         GUI: on move event
         '''
         if self.dragging:
+            if not event.xdata or not event.ydata:
+                return
+
             x, y = self.apply_step(event.xdata, event.ydata)
             if (x, y) in self.points_spatial:
                 return
